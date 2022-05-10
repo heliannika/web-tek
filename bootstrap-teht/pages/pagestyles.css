@@ -43,3 +43,7 @@ img {
     border: #9fc7aa 3px dotted;
     height: 1.5em;
 }
+
+.accordion-item {
+    opacity: 0.9;
+}
