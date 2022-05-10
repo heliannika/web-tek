@@ -8,10 +8,19 @@ body {
     background-size: cover;
 }
 
+h2 {
+    background-color: #fafcf2;
+    width: 100%;
+    opacity: 0.9;
+}
+
 #footer {
     background-color: #fafcf2;
-    position: absolute;
-    left: 0 ; right: 0; bottom: 0; 
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .dropdown-item {
@@ -32,4 +41,17 @@ button {
     margin-left: 0.5em;
     background-color: #fafcf2;
     border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+div {
+    margin-bottom: 0.5em;
 }

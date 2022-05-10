@@ -9,7 +9,7 @@ p {
 body {
     background-image: url("../images/forest.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 #footer {
