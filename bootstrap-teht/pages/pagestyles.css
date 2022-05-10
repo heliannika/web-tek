@@ -61,3 +61,19 @@ a {
 a:visited {
     color: black;
 }
+
+.project_Skills {
+    opacity: 0.9;
+    background-color: #fafcf2;
+    margin-top: 1em;
+}
+
+.project_Skills2 {
+    opacity: 0.9;
+    background-color: #fafcf2;
+    width: 100%;
+}
+
+h1 {
+    padding: 1em;
+}
