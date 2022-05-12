@@ -11,6 +11,7 @@
        <!-- Sivun asettelu tehty vain Bootstrapin accordionin avulla, niiden alla tosin hyödynnetty vielä rivitystä ja kolumneja koodissa. -->
     <title>Bootstrap-tehtävä</title>
     <link rel="stylesheet" href="pagestyles.css">
+    <script src="code.js" defer></script>
   </head>
   <body>
       <!-- Bootstrap navbar. -->
@@ -59,17 +60,19 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Heard from people working with me...
             </button>
+            <!-- Koodit, joita muokataan JavaScriptissä. -->
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">       <div class="row">
+            <div class="accordion-body">       
+              <div class="row">
                 <div class="col-md-4">
-                    <h2>"Quote 1"</h2><p>- name</p>
+                    <h2 class="quotes">"Quote 1"</h2><p>- name</p>
                 </div>
                 <div class="col-md-4">
-                    <h2>"Quote 2"</h2><p>- name</p>
+                    <h2 class="quotes">"Quote 2"</h2><p>- name</p>
                 </div>
                 <div class="col-md-4">
-                    <h2>"Quote 3"</h2><p>- name</p>
+                    <h2 class="quotes">Quote 3"</h2><p>- name</p>
                 </div>
             </div>
           </div>
