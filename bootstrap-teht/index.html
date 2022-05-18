@@ -11,8 +11,13 @@
     <!-- Loin itselleni portfoliosivun, itse sisältö ei ole vielä ihan valmis, mutta koodit ja koodien asettelut on kuten pitäisi. Bootstrapia
     on käytetty Navbareissa jokaisella sivulla sekä myös alasivuilla on hyödynnetty Accordionia, buttonit taas täällä etusivulla. -->
     <title>Bootstrap-tehtävä</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js" defer></script>
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
+    <link rel="stylesheet" href="css/scss/built-styles.css">
+
+    <!-- Tämän sivun javascript-tiedostossa kurssin javascript-tehtävään liittyvää koodia! Kommentoinnit siitä itse js-tiedoston puolella. -->
+
+    <script src="javascript/javascript.js" defer></script>
   </head>
   <body>
       <!-- Bootstrap Navbar. -->
@@ -56,11 +61,11 @@
     <h1>Heli Rajamäki</h1>
     <div class="container">
         <div class="row">
-          <div class="col-md-4">
-                <p><img src = "images/skills/ODOTTAA VIELÄ OIKEAA KUVAA D.png" id = "profile_pic" onmouseenter="mouseEnterFunc()" onmouseover="mouseOverFunc()"></p>
+          <div id = "mouseOut" class="col-md-4" onmouseout="mouseOutFunc()">
+                <p><img src = "images/skills/ODOTTAA VIELÄ OIKEAA KUVAA D.png" id = "profile_pic" onmouseenter="mouseEnterFunc()"></p>
             </div>
             <div class="col-md-8">
-                <h2>Motto</h2>
+                <h2 id = "programmingQuote"></h2>
                 <h3>Current job position</h3>
                 <p><img src="images/skills/phone.png">Phone number</p>
                 <p><img src="images/skills/email.png">Email</p>

@@ -3,7 +3,7 @@ h1, h2, h3, p {
 }
 
 body {
-    background-image: url("images/forest.jpg");
+    background-image: url("../images/forest.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

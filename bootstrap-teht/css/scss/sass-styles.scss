@@ -1,0 +1,66 @@
+$base-color: #fafcf2;
+$text-color: black;
+$one-em: 1em;
+
+body {
+    background-image: url("../background-img/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        padding: $one-em;
+    }
+    h2 {
+        background-color: $base-color;
+        width: 100%;
+        opacity: 0.9;
+    }
+    h1, h2, h3, p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    img {
+        border-radius: 0.5em;
+        height: 1.5em;
+        opacity: 0.7;
+    }
+}
+
+#profile_pic {
+    height: 20em;
+}
+
+#footer {
+    background-color: $base-color;
+    opacity: 0.9;
+    position: fixed;
+    padding: 0px 0px 0px 0px;
+    bottom: 0;
+    left: 0; bottom: 0; top: 96%;
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: $base-color;
+    .dropdown-item {
+        background-color: $base-color;
+    }
+}
+
+.col-md-4 {
+    padding: 1.5em;
+    button {
+        padding: $one-em;
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        background-color: white;
+        border: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+    a:visited {
+        color: $text-color;
+    }
+}
