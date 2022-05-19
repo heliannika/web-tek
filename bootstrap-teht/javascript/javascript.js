@@ -9,6 +9,7 @@
 
     Interaktion hyödyntäminen eli eventtien käyttö
     Sivun sisällön dynaaminen muokkaus kuten ulkoasun tai sisällön manipulointi
+    REST-palvelun hyödyntäminen (jokin muu kuin tunneilla käytetty esimerkki)
  */
 
 let mouseEnter = document.getElementById("profile_pic");

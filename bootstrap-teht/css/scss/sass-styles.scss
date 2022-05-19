@@ -2,6 +2,11 @@ $base-color: #fafcf2;
 $text-color: black;
 $one-em: 1em;
 
+@mixin theme {
+    background-color: $base-color;
+    opacity: 0.9;
+}
+
 body {
     background-image: url("../background-img/forest.jpg");
     background-repeat: no-repeat;
@@ -10,9 +15,8 @@ body {
         padding: $one-em;
     }
     h2 {
-        background-color: $base-color;
+        @include theme;
         width: 100%;
-        opacity: 0.9;
     }
     h1, h2, h3, p {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,8 +33,7 @@ body {
 }
 
 #footer {
-    background-color: $base-color;
-    opacity: 0.9;
+    @include theme;
     position: fixed;
     padding: 0px 0px 0px 0px;
     bottom: 0;
