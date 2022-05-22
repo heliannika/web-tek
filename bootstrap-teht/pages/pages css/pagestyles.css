@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+body h1, h2, h3, p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -23,11 +23,7 @@ body {
     text-align: center;
 }
 
-.dropdown-item {
-    background-color: #fafcf2;
-}
-
-.dropdown-menu {
+.dropdown-menu > .dropdown-item {
     background-color: #fafcf2;
 }
 

@@ -10,8 +10,17 @@
 
        <!-- Sivun asettelu tehty vain Bootstrapin accordionin avulla, niiden alla tosin hyödynnetty vielä rivitystä ja kolumneja koodissa. -->
     <title>Bootstrap-tehtävä</title>
-    <link rel="stylesheet" href="pagestyles.css">
-    <script src="code.js" defer></script>
+    <link rel="stylesheet" href="../pages/pages css/pagestyles.css">
+    <script src="../pages/js/code.js" defer></script>
+
+    <!-- Tehtävä 3.1 Bootstrap: 
+      
+    Requirements:
+
+    At least 3 pages that have different layouts (different amount of columns etc). Note that even though the layouts differ, maintain consistency in the style.
+    Use at least following Bootstrap components: buttons, accordion and navbar. Feel free to choose other components as well. 
+  
+    About me -sivu on 2. erilaisella layoutilla oleva sivu, jossa hyödynnetty Bootstrapia (Navbar & Accordion).-->
   </head>
   <body>
       <!-- Bootstrap navbar. -->
@@ -42,10 +51,10 @@
                    Projects
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="../pages/projectpageone.html">Add some projects</a></li>
-                  <li><a class="dropdown-item" href="#">Add some projects</a></li>
+                  <li><a class="dropdown-item" href="../pages/projectpageone.html">Example project page</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Add some projects</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Other projects to mention</a></li>
+                  <li><a class="dropdown-item" href="#">Other projects to mention</a></li> -->
                 </ul>
               </li>
             </ul>
@@ -60,7 +69,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Heard from people working with me...
             </button>
-            <!-- Koodit, joita muokataan JavaScriptissä. -->
+            <!-- Lainaukset, joita muokataan JavaScriptissä. -->
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">       
