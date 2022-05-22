@@ -5,7 +5,6 @@
  * Muutin HTML-luokan nimeltä "quotes" tekstisisältöä Javascriptillä.
  */
 
-
 let quotes = document.getElementsByClassName("quotes");
 
 for (let i = 0; i < quotes.length; i++) {
