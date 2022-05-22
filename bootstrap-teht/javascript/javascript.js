@@ -14,6 +14,7 @@
     REST-palvelun hyödyntäminen
  */
 
+
 let mouseEnter = document.getElementById("profile_pic");
 
 mouseEnter.addEventListener("mouseenter", mouseEnterFunc);
